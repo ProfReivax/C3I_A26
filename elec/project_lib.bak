@@ -201,7 +201,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -19.05 0)
+				(at -15.24 -21.59 0)
 				(length 2.54)
 				(name "BS1"
 					(effects
@@ -237,7 +237,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -22.86 0)
+				(at -15.24 -25.4 0)
 				(length 2.54)
 				(name "RES#"
 					(effects
@@ -255,7 +255,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -26.67 0)
+				(at -15.24 -29.21 0)
 				(length 2.54)
 				(name "D/C#"
 					(effects
@@ -273,7 +273,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -30.48 0)
+				(at -15.24 -33.02 0)
 				(length 2.54)
 				(name "CS#"
 					(effects
@@ -327,7 +327,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -8.89 0)
+				(at -15.24 -6.35 0)
 				(length 2.54)
 				(name "VDDIO"
 					(effects
@@ -345,7 +345,7 @@
 				)
 			)
 			(pin power_in line
-				(at -15.24 -5.08 0)
+				(at -15.24 -10.16 0)
 				(length 2.54)
 				(name "VCI"
 					(effects
@@ -499,6 +499,136 @@
 					)
 				)
 				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "PEC11R"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PEC11R_0_1"
+			(rectangle
+				(start -7.62 -2.6194)
+				(end 7.62 -17.7006)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "PEC11R_1_1"
+			(pin output line
+				(at -10.16 -10.16 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 0 -20.32 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 10.16 -10.16 180)
+				(length 2.54)
+				(name "B"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
